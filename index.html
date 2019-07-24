@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/mit.css" />
+    <title>Omkarnath Phatak :: Curriculum Vitae</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Introduction -->
+        <div class="row skill">
+            <div class="row-fluid">
+                <div class="span8">
+                <h3>Hi</h3>
+                <p>I'm Omkarnath, from the state of Maharashtra, India
+                </p>
+                    <ul>
+                        <li>I am a developer fella. I maintain this page to describe my experience and current status</li>
+                        <li>I prefer working on Golang, Python, django framework and love building teams around it</li>
+                        <li> My Github profile : <a target="_blank" href="https://github.com/Omie/">Omie at Github</a> </li>
+                    </ul>
+                </div>
+                <div class="span4 text-center">
+                    <img src="./img/me.jpg">
+                </div>
+            </div>
+        </div> <!-- /introduction -->
+        <div class="row">
+            <div class="span12">
+                <ul class="hor-list navigation">
+                    <li><a href="#current">Current</a></li>
+                    <li><a href="#professional">Professional Experience</a></li>
+                    <li><a href="#projects">Personal Projects</a></li>
+                    <li><a href="#communities">Online Communities</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                    <li class="last-child"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- current -->
+        <div class="row skill" id="current">
+            <div class="row-fluid">
+                <h3 class="skill-title">Current</h3>
+                Working at Clustr (clustr.co.in) as a Senior Software Engineer
+            </div>
+        </div>
+
+        <!-- professional experience -->
+        <div class="row skill" id="professional">
+            <div class="row-fluid">
+                <h3 class="skill-title">Professional Experience</h3>
+
+                <h3 class="skill-title">&#10033; Clustr (June 2017 - Present) - Senior Software Engineer</h3>
+                <ul>
+                  <li>currently building data platform</li>
+                  <li>designed and implemented a <a href="https://martinfowler.com/bliki/CQRS.html" target="_blank">CQRS</a> based system to manage reference data repository. I own this component end-to-end</li>
+                  <li>implemented journaling like mechanism to provide data versioning support at most granular level</li>
+                  <li>implemented snapshot mechanism using layered file system</li>
+                  <li>mentoring 3 people, helping them build better software</li>
+                  <li>Python, Django, Postgresql, MongoDB, Redis, Docker :)</li>
+                </ul>
+
+                <h3 class="skill-title">&#10033; Efficient Bazaar (August 2016 - April 2017) - AVP-Engineering, B2B E-commerce</h3>
+                <ul>
+                  <li>Defined projects, their dependencies, priorities, order of execution, roadmap, technology stack  and
+                  complete service oriented architecture to accommodate the tech vision of the company even at scale
+                  </li>
+                  <li>Defined hiring pipeline, workflows, challenges. Conducted interviews. Hired resources across different
+                  skill sets - PHP, Python, Test automation, Manual testing, to build team from scratch
+                  </li>
+                  <li>Developed foundation codebase according to the designed architecture, setup cloud infrastructure, deployment
+                  workflows, coding practices, development workflows and tools
+                  </li>
+                  <li>Co-ordinated with existing outsourced agency to complete the deliverables and launch E-Commerce portal.
+                  Also with another agency to get Android application built
+                  </li>
+                  <li>Developed central user base system that will help with single sign-on going forward. Developed an in-house
+                  e-wallet system to facilitate managing purchases on credit. Developed server side APIs for Android application.
+                  Carried out major refactors and bugfixes
+                  </li>
+                  <li>Defined and put together foundation for reporting services
+                  </li>
+                  <li>This is how I envisioned Efficient Bazaar's tech. [Thanks to Rohit Gehe for the artwork :) ] <br/>
+                  <img src="./img/eb-vision.png" alt="efficient bazaar tech vision" />
+                  </li>
+                </ul>
+
+                <h3 class="skill-title">&#10033; StriveWire GmbH (October 2015 - April 2016) - node.js, react, flux</h3>
+                <ul>
+                    <li>researched for and implemented full text search. Postgres pg_trgm, React</li>
+                    <li>implemented <b>User 2 User chat</b> on top of existing chat components. React application. Workflows are similar
+                      to that of facebook's /messages page. Real time updates even in sidebar, site wide messages dropdown and such
+                    </li>
+                    <li>implemented <b>Tournament Browse</b> React application. Has fancy filtering options</li>
+                    <li>improved testing by significant margin. Added bunch of unit tests, integration tests, stress tests. <br />
+                      wrote a test generator that helps testing ~85% of all the GET routes. <br />
+                      also made sure jade template files are tested for syntax errors at deployment time.
+                    </li>
+                    <li>foundation work for supporting S3 uploads</li>
+                    <li>performed major refactors across the codebase to make it robust. Mainly supporting transactional queries,
+                      simplifying complex nested async trees, comply to later-added-coding-standards and such
+                    </li>
+                    <li>bunch of minor features, improvements, bugfixes, refactors, cleanups</li>
+                    <li>total impact on codebase is ~40k loc++ and 30k loc-- </li>
+                </ul>
+
+                <h3 class="skill-title">&#10033; MovieCycle GmbH (Contractor) - Golang</h3>
+                <ul>
+                    <li>Took care of B2C API, added number of features to their product</li>
+                    <li>Can't put it out in details but I worked on scraping related tasks, update their REST api, worked with Elastic search a bit</li>
+                </ul>
+
+                <h3 class="skill-title">&#10033; Coriolis Technologies - (June 2011 - January 2014) - Django/Python, Information Security, Management</h3>
+                  <h5 class="skill-subtitle">django/python</h5>
+                    <ul>
+                        <li>Colama : <a href="http://colama.net" target="_blank">colama.net</a>
+                            : think of Openstack+Moodle. I worked as a full stack developer</li>
+                        <li>Logbook : centralized logging server, excellent filtering capabilities</li>
+                        <li>Licensing portal for multiple products : license key generation, online activation and such
+                            licensing features for multiple products</li>
+                        <li>Admin app for thinclients : embedded configuration app for thinclients</li>
+                        <li>Appliance configuration manager : web based configurator for one BYOD product</li>
+                        <li>Administrative web app for TIFR : cashless canteen system for Tata Institute of Fundamental Research, Mumbai</li>
+                    </ul>
+                  <h5 class="skill-subtitle">Information Security and Business Management</h5>
+                    <ul>
+                        <li>Built a new business vertical, hired people, trained a team of 6</li>
+                        <li>5 projects completed in an year, 4 of them for the worlds biggest security giant</li>
+                    </ul>
+
+                <hr />
+
+                <h3 class="skill-title">Curious and motivated</h3>
+                <p>It was fun to solve challenges while I was free in my early days at Coriolis Technologies
+                   <ul>
+                       <li><b>Persistent RAM</b>: This was very interesting. Maintain the state of portion of RAM even after
+                            a reboot, without having to dump on persistent storage!<br />
+                            One senior fellow in my previous company did this for Solaris - 
+                            I studied from his techniques and implemented the same on Linux kernel over a period of 2 weekends
+                       </li>
+                       <li><b>Spice for Android</b>: <a href="http://www.it.iitb.ac.in/aakash2/" target="_blank">Aakash Android tablets were developed by Indian Institute of Technology</a> and 
+                            were offered at subsidized price to students. I wanted to get <a target="_blank" href="http://www.spice-space.org/home.html">Spice client</a>
+                            running on these tablets so that one could easily access machines hosted using Colama. I worked on an old opensource Spice client 
+                            and updated it to get it running on recent versions of Android
+                       </li>
+                   </ul>
+                </p>
+            </div>
+        </div> <!-- /professional experience -->
+
+        <!-- projects -->
+        <div class="row skill" id="projects">
+            <div class="row-fluid">
+                <h3 class="skill-title">Personal Projects</h3>
+                    <li>Shruti <span class="tag">- Audio notifications software suit</span><br />
+                        <ul class="inner-skills">
+                            <li>Listen to what is going around instead of just reading them all the time</li>
+                            <li>There are bunch of scrapers that fetch updates and microservices that help you listen to them</li>
+                            <li>Golang, Ivona TTS, AngularJS, Docker</li>
+                            <li><a target="_blank" href="https://github.com/Omie/shruti">https://github.com/Omie/shruti</a></li>
+                            <li>Check out bunch of shruti-* repos in my github for source</li>
+                        </ul>
+                    </li> <!-- shruti -->
+
+                    <li>GoSMS <span class="tag">-Self hosted SMS Gateway</span><br />
+                        <ul class="inner-skills">
+                            <li>Your own local SMS gateway, just like those internet based ones</li>
+                            <li>Powered by Golang</li>
+                            <li><a target="_blank" href="http://haxpax.github.io/gosms/">haxpax.github.io/gosms/</a></li>
+                        </ul>
+                    </li> <!-- gosms -->
+
+                    <li>Quicktions <span class="tag">-answers to your quick questions</span><br />
+                        <ul class="inner-skills">
+                            <li>I also tried building a startup, it ended up being an app and then had to call it off. Here's a video of how it worked</li>
+                            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/vq03pewE6ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                            <li>Powered by Golang, in fact built it during first Gophergala (worldwide Golang hackathon).
+                            What you see in the video is the output of 48 hours, built it with <a target="_blank" href="http://madhur.me/">Madhur</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- /projects -->
+
+
+        <!-- Communities -->
+        <div class="row skill" id="communities">
+            <div class="row-fluid">
+                <h3 class="skill-title">Online Communities</h3>
+                <img src="./img/mvplogo.jpg" align="right">
+                <p>I learned to code only because of awesome internet communities.<br />
+                   During my graduation, which I did in Commerce, I had no formal education of
+                   computer science or programming.<br />
+                   Its because of internet communities I got to learn something new everyday, I could
+                   explore the new technologies and develop a wide skillset.
+                </p>
+                <ul>
+                    <li>chip-india.com
+                    <ul class="inner-skills">
+                        <li>
+                           Since 2005, I was active on the forums hosted by a tech magazine called Chip at chip-india.com. (This site is now closed down.)<br />
+                           Most important thing I learned from this forum was, how to use 'teh interwebs' to
+                           get most out of it.<br />
+                           This knowledge and some awesome online friends is what I owe to chip-india.com
+                        </li>
+                    </ul>
+                    </li><!-- /chip -->
+                    <li>Microsoft Developer Network
+                        <ul class="inner-skills">
+                            <li>My profile: <a href="http://social.msdn.microsoft.com/profile/omie/?type=forum" target="_blank">Omie at MSDN</a></li>
+                            <li>This contribution, along with some blogging, <a target="_blank" href="http://blogs.technet.com/b/southasiamvp/archive/2010/10/01/new-mvps-announced-october-2010.aspx" title="MVP award announcement">earned me</a> Microsoft's <a target="_blank" href="http://mvp.microsoft.com/en-US/default.aspx">Most Valuable Professioal</a> award.</b><br />
+                            <span class="quote">According to Microsoft, Microsoft Most Valuable Professional (MVP) award is given to "exceptional, independent community leaders who share their passion, technical expertise, and real-world knowledge of Microsoft products with others.
+                                - <a target="_blank" href="http://en.wikipedia.org/wiki/Microsoft_Most_Valuable_Professional">Wikipedia</a></span>
+                            </li>
+                            <li>I have received a recommendation letter from Microsoft. You can check scanned copy here: <a href="./img/letter.jpg" target="_blank">Letter</a></li>
+                        </li>
+                        </ul>
+                    </li><!-- /msdn -->
+                </ul>
+            </div> <!-- /row-fluid -->
+        </div> <!-- /online communities -->
+
+        <!-- goals -->
+        <div class="row skill" id="goals">
+            <div class="row-fluid">
+                <h3 class="skill-title">Goals</h3>
+                <ul>
+                    <li>Professional
+                        <ul class="inner-skills">
+                            <li>build the next big thing!  </li>
+                        </ul>
+                    </li>
+                    <li>Personal
+                        <ul class="inner-skills">
+                            <li>Have some life<br />
+                            Travel, see the world, experience how the world works in different parts<br />
+                            Learn to live in different conditions, with different people. Learn the ways
+                            of living in harmony
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- /goals -->
+
+        <!-- contact -->
+        <div class="row skill" id="contact">
+            <div class="row-fluid">
+                <h3 class="skill-title">Documents and Contact</h3>
+                <ul>
+                    <li>You can download a copy of my resume from here: <a rel="nofollow" href="./files/omkarnathphatak-cv.pdf">Download Resume</a></li>
+                    <li>Recommendation letter from Microsoft: <a href="./img/letter.jpg" target="_blank">Link</a></li>
+                    <li>You can contact me by email on contact AT omkarnath.me</li>
+                    <li>
+                        <ul class="hor-list">
+                            <li><a href="http://in.linkedin.com/in/omkarnathphatak" target="_blank">Linkedin</a></li>
+                            <li><a href="http://intelomkar.wordpress.com/" target="_blank">My Blog</a></li>
+                            <li class="last-child"><a href="https://twitter.com/omkarnath" target="_blank">Twitter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- /contact -->
+
+        <div class="row" id="footer">
+            <div class="container">
+                &nbsp;
+            </div>
+        </div>
+
+    </div> <!-- /container -->
+    <script src="./js/jquery-1.8.2.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50478828-1', 'omkarnath.me');
+      ga('send', 'pageview');
+
+    </script>
+
+  </body>
+</html>
