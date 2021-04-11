@@ -17,13 +17,13 @@
         <!-- Introduction -->
         <div class="row">
             <div class="col-sm">
-                <h3>Hi</h3>
-                <p>I'm Omkarnath, from the state of Maharashtra, India</p>
-                <ul>
-                    <li>I am a developer fella. I maintain this page to describe my experience and current status</li>
-                    <li>I prefer working on Golang, Python, django framework and love building teams around it</li>
-                    <li> My Github profile : <a target="_blank" href="https://github.com/Omie/">Omie at Github</a> </li>
-                </ul>
+                <h4>Hi,</h4>
+                <h5>I'm Omkarnath, from the state of Maharashtra, India</h5>
+                <p>
+                I am a developer fella. I maintain this page to describe my experience and current status.<br/>
+                I prefer working on Golang, Python, django framework and love building teams around it.<br/>
+                My Github : <a target="_blank" href="https://github.com/Omie/">Omie at Github</a> </li>
+                </p>
             </div>
             <div class="col-sm text-center">
                 <img src="./img/me.jpg">
@@ -32,19 +32,94 @@
         <hr />
         <div class="row">
             <ul class="list-group list-group-horizontal-lg">
-                <li class="list-group-item"><a href="#current">Current</a></li>
-                <li class="list-group-item"><a href="#professional">Professional Experience</a></li>
                 <li class="list-group-item"><a href="#projects">Personal Projects</a></li>
+                <li class="list-group-item"><a href="#professional">Professional Experience</a></li>
                 <li class="list-group-item"><a href="#communities">Online Communities</a></li>
                 <li class="list-group-item"><a href="#goals">Goals</a></li>
                 <li class="list-group-item"><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <hr />
-        <!-- current -->
-        <div class="row" id="current">
+
+        <div class="row" id="projects">
             <div class="col-sm">
-                <h2>Currently, Heading Engineering at Tijori Finance</h2>
+                <h5>Personal Projects</h5>
+                <p>
+                    I'm a programmer first. Most of my projects are open source, they are available at my Github.
+                    I also like to contribute to open source projects when I get time.
+                    <ul>
+                        <li><a href="https://github.com/go-delve/delve/commits?author=Omie">delve - Golang debugger</a>
+                            <p>I added support for multiple file / directory tables for multiple compilation units.
+                                This enabled the debugger to work with CGO codebase</p>
+                        </li>
+                        <li><a href="https://github.com/flyway/flyway/pull/1027">flyway - database migrations manager</a>
+                            <p>added support for non-transactional SQL migrations. I patched their code in a single day to unblock my then employer,
+                            <a rel="nofollow" href="https://justwatch.com">justwatch.com</a>
+                            This patch enabled updating ENUM types in the postgresql database.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>some of my hobby projects</p>
+                <h4>GoSMS <span class="tag">-Self hosted SMS Gateway</span></h4>
+                <ul class="inner-skills">
+                    <li>Your own local SMS gateway, just like those internet based ones</li>
+                    <li>Powered by Golang</li>
+                    <li>This project was featured on HN frontpage for 2 days ;-)
+                        <a href="https://news.ycombinator.com/item?id=9029341">HN post</a>
+                    </li>
+                    <li><a target="_blank" href="http://haxpax.github.io/gosms/">haxpax.github.io/gosms/</a></li>
+                </ul>
+            </div>
+        </div> <!-- gosms -->
+        <div class="row">
+            <div class="col-sm">
+                <h4>Shruti <span class="tag">- Audio notifications software suit</span></h4>
+                <ul class="inner-skills">
+                    <li>Listen to what is going around instead of just reading them all the time</li>
+                    <li>There are bunch of scrapers that fetch updates and microservices that help you listen to them</li>
+                    <li>I built this back in 2015 to learn all the microservices jazz. I have also implemented schedulers and stuff
+                        for docker containers.Check out bunch of shruti-* repos in my github for source.
+                    </li>
+                    <li>Golang, Ivona TTS, AngularJS, Docker</li>
+                    <li><a target="_blank" href="https://github.com/Omie/shruti">https://github.com/Omie/shruti</a></li>
+                </ul>
+            </div>
+        </div> <!-- shruti -->
+        <div class="row">
+            <div class="col-sm">
+                <h4>Quicktions <span class="tag">- answers to your quick questions</span></h4>
+                <ul class="inner-skills">
+                    <li>I also tried building a startup, it ended up being an app and then had to call it off. Here's a video of how it worked</li>
+                    <li><iframe class="img-fluid" src="https://www.youtube.com/embed/vq03pewE6ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+                    <li>Powered by Golang, in fact built it during first Gophergala (worldwide Golang hackathon).
+                    What you see in the video is the output of 48 hours, built it with <a target="_blank" href="http://madhur.me/">Madhur</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <h4>HNotepad <span class="tag">- Notepad using Haskell!</span></h4>
+                <ul>
+                    <li>Functional programming and specifically Haskell is my long lost love, and I'm always hoping to catchup with it in future.</li>
+                    <li>Building anything, even as simple as a Notepad is fun when it's Haskell :-)</li>
+                    <li><a href="https://github.com/Omie/HNotepad">HNotepad</a></li>
+                    <img class="img-fluid" src="https://camo.githubusercontent.com/d79d8f0c75bc63c83dd6095886f67e92d652dd829f40de69b03c9d708df5d8c6/687474703a2f2f696e74656c6f6d6b61722e66696c65732e776f726470726573732e636f6d2f323031312f30362f686e6f74657061642e706e67">
+                </ul>
+            </div>
+        </div> <!-- /projects -->
+        <hr/>
+
+        <!-- professional experience -->
+        <div class="row" id="professional">
+            <div class="col-sm">
+                <h5>Professional Experience</h5>
+                <h4>Heading Engineering at Tijori Finance - <span class="emp-duration">(September 2020 - Now)</span></h4>
                 moved to Tijori Finance from Clustr, another unit in Tally software under IJP. Took over as Head of Engineering.
                 <ul>
                     <li>brought in the processes from scratch - product specification, low level designs, git workflows, continuous integration and delivery</li>
@@ -56,14 +131,9 @@
                 </ul>
             </div>
         </div>
-        <hr />
-        <!-- professional experience -->
-        <div class="row" id="professional">
+        <div class="row">
             <div class="col-sm">
-                <h5>Professional Experience</h5>
-
-                <h2>Clustr - Senior Software Engineer II - <span class="emp-duration">(June 2017 - August 2020)</span></h2>
-
+                <h4>Clustr - Senior Software Engineer II - <span class="emp-duration">(June 2017 - August 2020)</span></h4>
                 <ul>
                     <li>Participated in defining the core data platform architecture</li>
                     <li>Designed and implemented reference data storage platform consisting RESTful API interface, polyglot persistence, dockerized deployment using django framework, redis, postgresql, mongodb, graphql</li>
@@ -75,7 +145,7 @@
         </div> <!-- /professional - clustr -->
         <div class="row">
             <div class="col-sm">
-                <h2>Efficient Bazaar - AVP-Engineering - <span class="emp-duration">(August 2016 - April 2017)</span></h2>
+                <h4>Efficient Bazaar - AVP-Engineering - <span class="emp-duration">(August 2016 - April 2017)</span></h4>
                 <ul>
                   <li>Defined projects, their dependencies, priorities, order of execution, roadmap, technology stack  and
                   complete service oriented architecture to accommodate the tech vision of the company even at scale
@@ -103,7 +173,7 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <h2>StriveWire GmbH - Fullstack Developer - <span class="emp-duration">(October 2015 - April 2016)</span></h2>
+                <h4>StriveWire GmbH - Fullstack Developer - <span class="emp-duration">(October 2015 - April 2016)</span></h4>
                 <ul>
                     <li>researched for and implemented full text search. Postgres pg_trgm, React</li>
                     <li>implemented <b>User 2 User chat</b> on top of existing chat components. React application. Workflows are similar
@@ -125,16 +195,17 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <h2>MovieCycle GmbH (Contractor) - Golang</h2>
+                <h4>MovieCycle GmbH (Contractor) - Golang</h4>
                 <ul>
                     <li>Took care of B2C API, added number of features to their product</li>
                     <li>Can't put it out in details but I worked on scraping related tasks, update their REST api, worked with Elastic search a bit</li>
+                    <li>This is <a href="https://justwatch.com">justwatch.com</a> btw</li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="col-sm">
-                <h2>Coriolis Technologies - Member of Technical Staff - <span class="emp-duration">(June 2011 - January 2014)</span></h3>
+                <h4>Coriolis Technologies - Member of Technical Staff - <span class="emp-duration">(June 2011 - January 2014)</span></h4>
                   <h5 class="skill-subtitle">django/python</h5>
                     <ul>
                         <li>Colama : <a href="http://colama.net" target="_blank">colama.net</a>
@@ -156,7 +227,7 @@
         <hr />
         <div class="row">
             <div class="col-sm">
-                <h2>Curious and motivated</h2>
+                <h4>Curious and motivated</h4>
                 <p>It was fun to solve challenges while I was free in my early days at Coriolis Technologies
                    <ul>
                        <li><b>Persistent RAM</b>: This was very interesting. Maintain the state of portion of RAM even after
@@ -173,44 +244,6 @@
                 </p>
             </div>
         </div> <!-- /professional experience -->
-        <hr/>
-
-        <!-- projects -->
-        <div class="row" id="projects">
-            <div class="col-sm">
-                <h5 class="skill-title">Personal Projects</h5>
-                <h2>Shruti <span class="tag">- Audio notifications software suit</span></h2>
-                <ul class="inner-skills">
-                    <li>Listen to what is going around instead of just reading them all the time</li>
-                    <li>There are bunch of scrapers that fetch updates and microservices that help you listen to them</li>
-                    <li>Golang, Ivona TTS, AngularJS, Docker</li>
-                    <li><a target="_blank" href="https://github.com/Omie/shruti">https://github.com/Omie/shruti</a></li>
-                    <li>Check out bunch of shruti-* repos in my github for source</li>
-                </ul>
-            </div>
-        </div> <!-- shruti -->
-        <div class="row">
-            <div class="col-sm">
-                <h2>GoSMS <span class="tag">-Self hosted SMS Gateway</span></h2>
-                <ul class="inner-skills">
-                    <li>Your own local SMS gateway, just like those internet based ones</li>
-                    <li>Powered by Golang</li>
-                    <li><a target="_blank" href="http://haxpax.github.io/gosms/">haxpax.github.io/gosms/</a></li>
-                </ul>
-            </div>
-        </div> <!-- gosms -->
-        <div class="row">
-            <div class="col-sm">
-                <h2>Quicktions <span class="tag">-answers to your quick questions</span></h2>
-                <ul class="inner-skills">
-                    <li>I also tried building a startup, it ended up being an app and then had to call it off. Here's a video of how it worked</li>
-                    <li><iframe class="img-fluid" src="https://www.youtube.com/embed/vq03pewE6ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-                    <li>Powered by Golang, in fact built it during first Gophergala (worldwide Golang hackathon).
-                    What you see in the video is the output of 48 hours, built it with <a target="_blank" href="http://madhur.me/">Madhur</a></li>
-                </ul>
-            </div>
-        </div> <!-- /projects -->
         <hr/>
 
         <!-- Communities -->
@@ -310,7 +343,6 @@
 
       gtag('config', 'UA-50478828-1', { 'optimize_id': 'GTM-M9W7VG4'});
     </script>
-
 
   </body>
 </html>
