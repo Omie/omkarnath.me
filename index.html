@@ -65,14 +65,14 @@
                 </p>
             </div>
             <div class="col-sm text-center">
-                <img src="./img/me.jpg">
+                <img style="width:200px" src="./img/me.jpg">
             </div>
         </div> <!-- /introduction -->
         <hr />
         <div class="row">
             <ul class="list-group list-group-horizontal-lg">
-                <li class="list-group-item"><a href="#projects">Personal Projects</a></li>
                 <li class="list-group-item"><a href="#professional">Professional Experience</a></li>
+                <li class="list-group-item"><a href="#projects">Personal Projects</a></li>
                 <li class="list-group-item"><a href="#communities">Online Communities</a></li>
                 <li class="list-group-item"><a href="#goals">Goals</a></li>
                 <li class="list-group-item"><a href="#contact">Contact</a></li>
@@ -80,85 +80,11 @@
         </div>
         <hr />
 
-        <div class="row" id="projects">
-            <div class="col-sm">
-                <h5>Personal Projects</h5>
-                <p>
-                    I'm a programmer first. Most of my projects are open source, they are available at my Github.
-                    I also like to contribute to open source projects when I get time.
-                    <ul>
-                        <li><a href="https://github.com/go-delve/delve/commits?author=Omie">delve - Golang debugger</a>
-                            <p>I added support for multiple file / directory tables for multiple compilation units.
-                                This enabled the debugger to work with CGO codebase</p>
-                        </li>
-                        <li><a href="https://github.com/flyway/flyway/pull/1027">flyway - database migrations manager</a>
-                            <p>added support for non-transactional SQL migrations. I patched their code in a single day to unblock my then employer,
-                            <a rel="nofollow" href="https://justwatch.com">justwatch.com</a>
-                            This patch enabled updating ENUM types in the postgresql database.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <p>some of my hobby projects</p>
-                <h4>GoSMS <span class="tag">-Self hosted SMS Gateway</span></h4>
-                <ul class="inner-skills">
-                    <li>Your own local SMS gateway, just like those internet based ones</li>
-                    <li>Powered by Golang</li>
-                    <li>This project was featured on HN frontpage for 2 days ;-)
-                        <a href="https://news.ycombinator.com/item?id=9029341">HN post</a>
-                    </li>
-                    <li><a target="_blank" href="http://haxpax.github.io/gosms/">haxpax.github.io/gosms/</a></li>
-                </ul>
-            </div>
-        </div> <!-- gosms -->
-        <div class="row">
-            <div class="col-sm">
-                <h4>Shruti <span class="tag">- Audio notifications software suit</span></h4>
-                <ul class="inner-skills">
-                    <li>Listen to what is going around instead of just reading them all the time</li>
-                    <li>There are bunch of scrapers that fetch updates and microservices that help you listen to them</li>
-                    <li>I built this back in 2015 to learn all the microservices jazz. I have also implemented schedulers and stuff
-                        for docker containers.Check out bunch of shruti-* repos in my github for source.
-                    </li>
-                    <li>Golang, Ivona TTS, AngularJS, Docker</li>
-                    <li><a target="_blank" href="https://github.com/Omie/shruti">https://github.com/Omie/shruti</a></li>
-                </ul>
-            </div>
-        </div> <!-- shruti -->
-        <div class="row">
-            <div class="col-sm">
-                <h4>Quicktions <span class="tag">- answers to your quick questions</span></h4>
-                <ul class="inner-skills">
-                    <li>I also tried building a startup, it ended up being an app and then had to call it off. Here's a video of how it worked</li>
-                    <li><iframe class="img-fluid" src="https://www.youtube.com/embed/vq03pewE6ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-                    <li>Powered by Golang, in fact built it during first Gophergala (worldwide Golang hackathon).
-                    What you see in the video is the output of 48 hours, built it with <a target="_blank" href="http://madhur.me/">Madhur</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <h4>HNotepad <span class="tag">- Notepad using Haskell!</span></h4>
-                <ul>
-                    <li>Functional programming and specifically Haskell is my long lost love, and I'm always hoping to catchup with it in future.</li>
-                    <li>Building anything, even as simple as a Notepad is fun when it's Haskell :-)</li>
-                    <li><a href="https://github.com/Omie/HNotepad">HNotepad</a></li>
-                    <img class="img-fluid" src="https://camo.githubusercontent.com/d79d8f0c75bc63c83dd6095886f67e92d652dd829f40de69b03c9d708df5d8c6/687474703a2f2f696e74656c6f6d6b61722e66696c65732e776f726470726573732e636f6d2f323031312f30362f686e6f74657061642e706e67">
-                </ul>
-            </div>
-        </div> <!-- /projects -->
-        <hr/>
-
         <!-- professional experience -->
         <div class="row" id="professional">
             <div class="col-sm">
                 <h5>Professional Experience</h5>
-                <h4>Heading Engineering at Tijori Finance - <span class="emp-duration">(September 2020 - Now)</span></h4>
+                <h4>VP -Engineering at Tijori Finance - <span class="emp-duration">(September 2020 - Now)</span></h4>
                 moved to Tijori Finance from Clustr, another unit in Tally software under IJP. Took over as Head of Engineering.
                 <ul>
                     <li>brought in the processes from scratch - product specification, low level designs, git workflows, continuous integration and delivery</li>
@@ -264,6 +190,7 @@
             </div>
         </div>
         <hr />
+
         <div class="row">
             <div class="col-sm">
                 <h4>Curious and motivated</h4>
@@ -283,6 +210,80 @@
                 </p>
             </div>
         </div> <!-- /professional experience -->
+        <hr/>
+
+        <div class="row" id="projects">
+            <div class="col-sm">
+                <h4>Personal Projects</h4>
+                <p>
+                    I'm a programmer first. Most of my projects are open source, they are available at my Github.
+                    I also like to contribute to open source projects when I get time.
+                    <ul>
+                        <li><a href="https://github.com/go-delve/delve/commits?author=Omie">delve - Golang debugger</a>
+                            <p>I added support for multiple file / directory tables for multiple compilation units.
+                                This enabled the debugger to work with CGO codebase</p>
+                        </li>
+                        <li><a href="https://github.com/flyway/flyway/pull/1027">flyway - database migrations manager</a>
+                            <p>added support for non-transactional SQL migrations. I patched their code in a single day to unblock my then employer,
+                            <a rel="nofollow" href="https://justwatch.com">justwatch.com</a>
+                            This patch enabled updating ENUM types in the postgresql database.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>some of my hobby projects</p>
+                <h4>GoSMS <span class="tag">-Self hosted SMS Gateway</span></h4>
+                <ul class="inner-skills">
+                    <li>Your own local SMS gateway, just like those internet based ones</li>
+                    <li>Powered by Golang</li>
+                    <li>This project was featured on HN frontpage for 2 days ;-)
+                        <a href="https://news.ycombinator.com/item?id=9029341">HN post</a>
+                    </li>
+                    <li><a target="_blank" href="http://haxpax.github.io/gosms/">haxpax.github.io/gosms/</a></li>
+                </ul>
+            </div>
+        </div> <!-- gosms -->
+        <div class="row">
+            <div class="col-sm">
+                <h4>Shruti <span class="tag">- Audio notifications software suit</span></h4>
+                <ul class="inner-skills">
+                    <li>Listen to what is going around instead of just reading them all the time</li>
+                    <li>There are bunch of scrapers that fetch updates and microservices that help you listen to them</li>
+                    <li>I built this back in 2015 to learn all the microservices jazz. I have also implemented schedulers and stuff
+                        for docker containers.Check out bunch of shruti-* repos in my github for source.
+                    </li>
+                    <li>Golang, Ivona TTS, AngularJS, Docker</li>
+                    <li><a target="_blank" href="https://github.com/Omie/shruti">https://github.com/Omie/shruti</a></li>
+                </ul>
+            </div>
+        </div> <!-- shruti -->
+        <div class="row">
+            <div class="col-sm">
+                <h4>Quicktions <span class="tag">- answers to your quick questions</span></h4>
+                <ul class="inner-skills">
+                    <li>I also tried building a startup, it ended up being an app and then had to call it off. Here's a video of how it worked</li>
+                    <li><iframe class="img-fluid" src="https://www.youtube.com/embed/vq03pewE6ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+                    <li>Powered by Golang, in fact built it during first Gophergala (worldwide Golang hackathon).
+                    What you see in the video is the output of 48 hours, built it with <a target="_blank" href="http://madhur.me/">Madhur</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <h4>HNotepad <span class="tag">- Notepad using Haskell!</span></h4>
+                <ul>
+                    <li>Functional programming and specifically Haskell is my long lost love, and I'm always hoping to catchup with it in future.</li>
+                    <li>Building anything, even as simple as a Notepad is fun when it's Haskell :-)</li>
+                    <li><a href="https://github.com/Omie/HNotepad">HNotepad</a></li>
+                    <img class="img-fluid" src="https://camo.githubusercontent.com/d79d8f0c75bc63c83dd6095886f67e92d652dd829f40de69b03c9d708df5d8c6/687474703a2f2f696e74656c6f6d6b61722e66696c65732e776f726470726573732e636f6d2f323031312f30362f686e6f74657061642e706e67">
+                </ul>
+            </div>
+        </div> <!-- /projects -->
         <hr/>
 
         <!-- Communities -->
